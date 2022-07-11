@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  background-color: beige;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 140px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: gray;
+}
+
+.checkbox::after {
+  display: inline-block;
+  content: "";
+  width: 70px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+
+
