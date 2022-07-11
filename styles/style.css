@@ -28,10 +28,12 @@ body {
 
 .checkbox:checked+.checkbox_thumb {
   background-color: green;
+  transition-duration: 2s;
 }
 
 .checkbox:checked+.checkbox_thumb:after {
   margin-left: 70px;
+  transition-duration: 2s;
 }
 
 .checkbox {
